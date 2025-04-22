@@ -1,0 +1,133 @@
+---
+---
+
+<section class="section testimonials">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">O que nossas Alunas estão dizendo:</h2>
+
+    <div class="testimonials-grid">
+      <div class="testimonial" data-aos="fade-up">
+        <div class="testimonial-content">
+          <p>"Meu filho é celíaco e sempre sofria por não poder comer pão. Depois que descobri este manual, consigo fazer pães deliciosos para ele todos os dias! A felicidade dele não tem preço."</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="/images/avatar-1.jpg" alt="Juliana Silva" class="testimonial-avatar">
+          <div class="testimonial-info">
+            <h4>Juliana Silva</h4>
+            <p>Mãe e dona de casa</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+        <div class="testimonial-content">
+          <p>"Comprei o manual há 3 meses e já estou vendendo pães sem glúten para 15 clientes fixos. Obrigada Chef Carla por compartilhar seu conhecimento de forma tão detalhada!"</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="/images/avatar-2.jpg" alt="Mariana Costa" class="testimonial-avatar">
+          <div class="testimonial-info">
+            <h4>Mariana Costa</h4>
+            <p>Empreendedora</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+        <div class="testimonial-content">
+          <p>"Eu tinha medo de tentar fazer pão sem glúten porque ouvia dizer que era difícil. Com o manual da Chef Carla, fiz meu primeiro pão francês sem glúten perfeito logo na primeira tentativa!"</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="/images/avatar-3.jpg" alt="Ricardo Mendes" class="testimonial-avatar">
+          <div class="testimonial-info">
+            <h4>Ricardo Mendes</h4>
+            <p>Engenheiro aposentado</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="300">
+        <div class="testimonial-content">
+          <p>"As receitas são incríveis! O pão de hambúrguer ficou tão bom que até meus amigos que não têm restrição alimentar pediram a receita. Super recomendo!"</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="/images/avatar-4.jpg" alt="Ana Lúcia" class="testimonial-avatar">
+          <div class="testimonial-info">
+            <h4>Ana Lúcia</h4>
+            <p>Nutricionista</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .testimonials {
+    background-color: white;
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .testimonial {
+    background-color: var(--color-background);
+    border-radius: var(--border-radius);
+    padding: var(--space-5);
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+
+  .testimonial::before {
+    content: """;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 5rem;
+    color: var(--color-accent);
+    font-family: 'Playfair Display', serif;
+    opacity: 0.3;
+    line-height: 1;
+  }
+
+  .testimonial-content {
+    margin-bottom: var(--space-4);
+  }
+
+  .testimonial-content p {
+    margin-bottom: 0;
+    font-style: italic;
+  }
+
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .testimonial-info h4 {
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+
+  .testimonial-info p {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+  }
+
+  @media (min-width: 768px) {
+    .testimonials-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>

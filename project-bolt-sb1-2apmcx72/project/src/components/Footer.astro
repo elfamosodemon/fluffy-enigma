@@ -1,0 +1,86 @@
+---
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="payment-methods">
+      <div class="payment-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+          <line x1="1" y1="10" x2="23" y2="10"></line>
+        </svg>
+        <p>Parcelamento em até 12x<br>no cartão de crédito</p>
+      </div>
+      <div class="payment-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+        <p>Plataforma de pagamento<br>100% segura e certificada</p>
+      </div>
+      <div class="payment-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+          <polyline points="21 15 16 10 5 21"></polyline>
+        </svg>
+        <p>Site blindado seus dados<br>seguros e protegidos</p>
+      </div>
+    </div>
+    <div class="legal">
+      <p>
+        Aviso legal: Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usamos resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: var(--color-primary-dark);
+    color: white;
+    padding: var(--space-8) 0;
+  }
+
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+    margin-bottom: var(--space-6);
+    text-align: center;
+  }
+
+  .payment-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .payment-item svg {
+    color: var(--color-accent);
+    width: 40px;
+    height: 40px;
+  }
+
+  .payment-item p {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    line-height: 1.4;
+  }
+
+  .legal {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--space-4);
+    text-align: center;
+    font-size: 0.75rem;
+    opacity: 0.7;
+  }
+
+  @media (min-width: 768px) {
+    .payment-methods {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+</style>

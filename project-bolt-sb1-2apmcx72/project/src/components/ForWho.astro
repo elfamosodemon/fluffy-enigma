@@ -1,0 +1,107 @@
+---
+---
+
+<section class="section for-who">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Para quem é recomendado?</h2>
+
+    <div class="audience-groups">
+      <div class="audience-item" data-aos="fade-up">
+        <div class="audience-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+        </div>
+        <div class="audience-text">
+          <p>Para quem é celíaco, diabético ou tem alguma restrição alimentar e não quer abrir mão de comer um pãozinho delicioso todos os dias.</p>
+        </div>
+      </div>
+
+      <div class="audience-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="audience-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+        </div>
+        <div class="audience-text">
+          <p>Para quem é vegano ou vegetariano e quer comer um pão de qualidade, sem precisar testar várias receitas diferentes e desperdiçar farinha.</p>
+        </div>
+      </div>
+
+      <div class="audience-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="audience-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+        <div class="audience-text">
+          <p>Para quem não tem tempo, mas quer fazer pães sem glúten, com aparência e textura de pão, com apenas alguns minutos por dia.</p>
+        </div>
+      </div>
+
+      <div class="audience-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="audience-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="1" x2="12" y2="23"></line>
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+          </svg>
+        </div>
+        <div class="audience-text">
+          <p>Para quem quer atender uma demanda que vem crescendo e gerar uma nova renda com a venda dos pães sem glúten.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .for-who {
+    background-color: white;
+  }
+
+  .audience-groups {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .audience-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-4);
+    background-color: var(--color-background);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+  }
+
+  .audience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .audience-icon {
+    background-color: var(--color-accent-light);
+    color: var(--color-primary);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .audience-text p {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 768px) {
+    .audience-groups {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>

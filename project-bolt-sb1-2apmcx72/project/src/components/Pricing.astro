@@ -1,0 +1,239 @@
+---
+---
+
+<section id="comprar" class="section pricing">
+  <div class="container">
+    <div class="pricing-limited" data-aos="fade-up">
+      <h3>VAGAS LIMITADAS!</h3>
+      <p>INFELIZMENTE CONSIGO LIBERAR APENAS 10 CUPONS PROMOCIONAIS POR DIA</p>
+      <div class="availability">
+        <div class="availability-bar">
+          <div class="availability-progress" style="width: 87%"></div>
+        </div>
+        <div class="availability-percent">87%</div>
+      </div>
+      <p class="availability-warning">APÓS FINALIZAR AS VAGAS O VALOR SERÁ REAJUSTADO AO PREÇO CHEIO</p>
+      <p>Clique abaixo para garantir sua vaga no preço promocional.</p>
+      <a href="#payment" class="btn btn-lg btn-accent">SIM! EU QUERO APRENDER</a>
+    </div>
+
+    <div id="payment" class="pricing-card" data-aos="fade-up">
+      <h2>Manual de Pães Artesanais Sem Glúten</h2>
+      <ul class="pricing-features">
+        <li>+6 Bônus Exclusivos (Somente Hoje!)</li>
+        <li>Garantia Incondicional de 7 Dias</li>
+        <li>Suporte com a Equipe da Chef</li>
+        <li>Acesso Imediato</li>
+      </ul>
+      <div class="pricing-special">
+        <div class="pricing-special-tag">OFERTA ESPECIAL</div>
+        <div class="pricing-special-bonus">+6 Bônus!</div>
+      </div>
+      <div class="pricing-promo">
+        <p>PREÇO PROMOCIONAL<br>PARA OS PRÓXIMOS: <span>08 CLIENTES</span></p>
+      </div>
+      <div class="pricing-value">
+        <div class="pricing-original">DE R$197,00 POR APENAS 12X de:</div>
+        <div class="pricing-current">R$ 7,02</div>
+        <div class="pricing-alternative">Ou R$ 69,90 à Vista</div>
+      </div>
+      <a href="#" class="btn btn-lg">COMPRAR AGORA</a>
+      <div class="pricing-guarantee">
+        <img src="/images/guarantee.png" alt="Garantia de 7 dias" class="guarantee-img">
+        <div class="guarantee-text">
+          <h4>Risco Zero</h4>
+          <p>Sua compra tem garantia completa de satisfação ou seu dinheiro de volta. Garantimos um material de excelente qualidade.</p>
+          <p>Você poderá comprovar, sem riscos. Se no prazo de 7 após a compra, você não ficar satisfeito(a), nos devolvemos seu dinheiro.</p>
+        </div>
+      </div>
+      <a href="#" class="btn">COMPRAR COM SEGURANÇA</a>
+      <div class="secure-purchase">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+        COMPRA 100% SEGURA
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .pricing {
+    background-color: white;
+  }
+
+  .pricing-limited {
+    background-color: var(--color-primary-light);
+    color: white;
+    border-radius: var(--border-radius);
+    padding: var(--space-6);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto var(--space-8);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .pricing-limited h3 {
+    color: white;
+    margin-bottom: var(--space-3);
+    font-size: 1.5rem;
+  }
+
+  .availability {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin: var(--space-4) 0;
+  }
+
+  .availability-bar {
+    flex-grow: 1;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .availability-progress {
+    height: 100%;
+    background-color: var(--color-accent);
+    border-radius: 10px;
+  }
+
+  .availability-percent {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--color-accent);
+  }
+
+  .availability-warning {
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+  }
+
+  .pricing-card {
+    background: linear-gradient(135deg, #fff 0%, #f9f9f9 100%);
+    border-radius: var(--border-radius);
+    padding: var(--space-6);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+    border: 2px solid var(--color-primary);
+  }
+
+  .pricing-card h2 {
+    color: var(--color-primary);
+    font-size: 1.75rem;
+    margin-bottom: var(--space-4);
+  }
+
+  .pricing-features {
+    list-style: none;
+    margin-bottom: var(--space-5);
+  }
+
+  .pricing-features li {
+    padding: var(--space-2) 0;
+    position: relative;
+    padding-left: var(--space-5);
+  }
+
+  .pricing-features li::before {
+    content: "✓";
+    color: var(--color-primary);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+
+  .pricing-special {
+    background-color: var(--color-accent);
+    color: var(--color-text);
+    padding: var(--space-3);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--space-4);
+    font-weight: 600;
+  }
+
+  .pricing-special-tag {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-1);
+  }
+
+  .pricing-promo {
+    margin-bottom: var(--space-4);
+  }
+
+  .pricing-promo p {
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .pricing-promo span {
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+
+  .pricing-value {
+    margin-bottom: var(--space-5);
+  }
+
+  .pricing-original {
+    font-size: 1rem;
+    margin-bottom: var(--space-2);
+  }
+
+  .pricing-current {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--space-2);
+  }
+
+  .pricing-alternative {
+    font-weight: 600;
+  }
+
+  .pricing-guarantee {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin: var(--space-6) 0;
+    text-align: left;
+  }
+
+  .guarantee-img {
+    width: 120px;
+    height: auto;
+  }
+
+  .guarantee-text h4 {
+    font-size: 1.25rem;
+    margin-bottom: var(--space-2);
+  }
+
+  .guarantee-text p {
+    font-size: 0.875rem;
+    margin-bottom: var(--space-2);
+  }
+
+  .secure-purchase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    margin-top: var(--space-4);
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+  }
+
+  @media (max-width: 768px) {
+    .pricing-guarantee {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>
